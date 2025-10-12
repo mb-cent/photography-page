@@ -1,0 +1,53 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#index 
+    body {
+        background-color: #dedede;
+    }
+
+    h1 {color: #222}
+    h2 {color: #353535}
+
+    p {
+        margin-bottom: 3px;
+        color: #555;
+    }
+
+#page2 
+    body {
+        background-color:#111;
+        color: #bbb;
+    }
+
+#exposure_triangle
+    li {
+        font-size:1.15rem;
+        font-weight:bold;
+        color: #454545;
+    }
+    
+
+
+#lens_types 
+    li {
+        list-style-position: inside;
+        list-style-type: none;
+        font-weight: bold;
+        color: #454545;
+    }
+    
+    .flexbox {
+        display: flex;
+    /* u can do this for some reason??? */
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+        gap: 3%; /* the space here duh */
+        padding-left: 0;
+    }
+    
+    .column {
+        flex: 0 0 30%; /* so this is flex items with 30% width i THINK itll work??? */
+        text-align: center;
+    }
